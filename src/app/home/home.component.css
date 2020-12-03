@@ -1,0 +1,183 @@
+
+/* style to style home page */
+
+h2 {
+    margin: 0;
+    color:white;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 2px 2px lightblue;
+}
+
+.item {
+    text-align: center;
+    height: 300px;
+}
+
+.carousel-caption{
+    margin-bottom:16%;
+}
+
+.text-container {
+    padding-top:8rem!important;
+    margin-left:-6vw!important;
+}
+
+.p-large{
+    padding-top:3%;
+    color:grey;
+    font-size:20px;
+}
+
+.heading{
+    padding-top:0rem!important;
+    color:black;
+    font-size:30px;
+    text-shadow: none;
+    font-weight: bolder;
+    text-align: left;
+    margin-left:4%;
+}
+
+.description{
+    color:grey;
+    font-size:20px;
+    padding-top: 3%;
+    margin-left:-5vw;
+}
+
+.describe{
+    color:grey;
+    font-size: 20px;
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: -5vw;
+}
+
+.heading1{
+    margin-left: -5vw;
+}
+
+.another-header{
+    margin-left: 6%;
+}
+
+#description {
+    padding-top: 3%;
+}
+
+.image-container {
+    padding-top:3%;
+}
+#ice-image{
+    margin-top:-7vw!important;
+    margin-left:-4vw!important;
+}
+
+#sightseeing{
+    padding-top:3%;
+}
+
+.sight-container{
+    padding-top:3%;
+}
+
+.para1-container, .para2-container{
+    color:grey;
+    font-size:20px;
+    margin-left:4%;
+}
+
+.heading3{
+    font-weight: bolder;
+    font-size:30px;
+    margin-left:2%;
+}
+
+#food-section{
+    padding-top:5%;
+}
+
+.food-container{
+    margin-left:2%;
+    padding-top:15%;
+    
+}
+
+#food-image{
+    margin-top:-5vw!important;
+    margin-left:-6vw!important;
+}
+
+#sports{
+    padding-top:3%;
+}
+
+.sports-container{
+    padding-top: 3%;
+}
+
+#mountain-section{
+    padding-top:3%;
+}
+
+.mountain-container{
+    margin-left:4%;
+}
+
+/* media query for small port devices */
+
+@media only screen and (max-width: 600px) {
+
+    .carousel-caption{
+        margin-bottom:70%;
+    }
+    
+    h2{
+        font-size: 30px;
+        text-shadow: 2px 2px lightblue;
+    }
+
+    .text-container {
+        padding-top:4rem!important;
+        margin-left:2vw!important;
+    }
+
+    .description{
+        margin-left: 2vw;
+    }
+
+    .heading1{
+        margin-left: 2vw;
+    }
+
+    .describe{
+        margin-left: 0;
+    }
+
+    #ice-image{
+        margin-top:-7vw!important;
+        margin-left:-2vw!important;
+    }
+
+    .ice-heading{
+        font-size:15px;
+        font-weight: bold;
+    }
+
+    .heading3{
+        font-weight: bolder;
+        font-size:25px;
+        padding-top:10rem!important;
+    }
+
+    #food-image{
+        margin-top:-8.5vw!important;
+        margin-left:-2vw!important;
+    }
+    
+    
+
+}
+
+
